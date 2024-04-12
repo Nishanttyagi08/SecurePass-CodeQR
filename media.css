@@ -1,0 +1,95 @@
+@media (max-width:600px) {
+
+    #main{
+     flex-direction: column;
+      margin-top: 350px;
+      gap: 10px;
+      overflow: hidden;
+     
+
+    }
+     #main-heading h1 {
+        font-size: 5.2vw;
+        padding: 0 6vw;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(94, 49, 208);
+        width: 90%;
+        height: 20vw;
+        padding-top: 18px;
+       /* border-radius: 40px; */
+       margin-left: 20px;
+       
+    
+     }
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+       padding-top: 30px;
+       gap: 70px;
+       
+    }
+    .password-container {
+        display: flex;
+        align-items: center;
+        width: 95%;
+        height: 110vw;
+    
+    }
+    #heading {
+        font-size: 7.9vw;
+        font-weight: 700;
+        padding-bottom: 3px;
+        padding-left: 5vw;
+        
+    }
+
+    
+    
+    #genBtn{
+        height: 15vw;
+        width: 70%;
+        font-size: 5vw;
+        padding: 0 14px;
+     margin-left: 40px;
+     margin-top: 15px;
+     border-radius: 10px;
+    
+    }
+    
+
+    .inputbox {
+        padding-bottom: 10px;
+    }
+
+    .Qr-container .box {
+        width: 85%;
+        height: 110vw;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    #qr-footer {
+        gap: 30px;
+        width: 90%;
+    }
+    #generateBtn {
+        height: 15vw;
+        width:  100%;
+        font-size: 5vw;
+        padding: 12 10;
+     margin-left: 40px;
+     margin-top: 15px;
+     border-radius: 10px;
+    }
+    #downloadBtn {
+        height: 15vw;
+        width: 70%;
+        font-size: 5vw;
+        padding: 12 10;
+     margin-left: 40px;
+     margin-top: 15px;
+     border-radius: 10px;
+    }
+
+    
+}
